@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main(){
+
+    /*Data types*/
+
     /*
     int age = 10;
     printf("Age = %d\n", age);
@@ -25,6 +28,37 @@ int main(){
     printf("double size = %zu\n", sizeof (number));
     */
 
+    /*Conversion*/
+
+    /*
+    double a = 5.67;
+    int b =9;
+    double result = a + b;
+
+    printf("%lf\n", result);
+    */
+
+    /*Implicit conversion*/
+
+    /*
+    int a = 3.65;
+    printf("%d", a);
+    */
+
+    /*Explicit conversion*/
+    
+    /*
+    double a = 5.67;
+    int b =9;
+    int result = (int)a + b;
+
+    printf("%d\n", result);
+    */
+    /*
+    int a = 9, b = 2;
+    double result = (double)a / b;
+    printf("%lf\n", result);
+    */
 
     return 0;
     
