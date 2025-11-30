@@ -60,6 +60,32 @@ int main(){
     printf("%lf\n", result);
     */
 
+    /*While loop*/
+    /*
+    int count = 1;
+
+    while(count < 5){
+        printf("while loop in C\n");
+        printf("count = %d\n", count);
+        count = count + 1;
+    }
+    */
+    /*
+    int number;
+    printf("Enter the number: ");
+    scanf("%d", &number);
+
+    int count = 1;
+
+    while(count <= 10){
+     int product = number * count;
+     printf("%d*%d = %d\n",number, count, product);
+     count = count + 1;
+    }
+    */
+
+    /*Do while loop*/
+
     return 0;
     
 }
