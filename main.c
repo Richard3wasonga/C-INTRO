@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(){
 
@@ -337,6 +338,84 @@ int main(){
   
     printf("%.2lf\n", result);
 
+    */
+
+    /*Boolean and comparison operators*/
+    /*
+    bool value1 = true;
+    bool value2 = false;
+
+    printf("%d ",value1);
+    printf("%d ", value2);
+    */
+
+    /*Greater than and lesser tahn operator*/
+    /*
+    bool value = (12 > 9);
+    bool value2 = (12 < 9);
+    printf("%d\n", value);
+    printf("%d\n", value2);
+    */
+
+    /*Equals to  and not equal to operator*/
+    /*
+    bool value = (9 == 6);
+    bool value1 = (9 != 6);
+
+    printf("%d\n", value);
+    printf("%d\n", value1);
+    */
+    /*Greater than or equal and lesser than or equal operator */
+    /*
+    bool value = (9 >= 6);
+    bool value1 = (9.34 <= 6.87);
+
+    printf("%d\n", value);
+    printf("%d\n", value1);
+    */
+
+    /*Comparison between variables*/
+
+    /*
+
+    int num1 = 9;
+    int num2 = 6;
+
+    bool value = (num1 > num2);
+    bool value1 = (num1 > 6);
+
+    printf("%d\n", value);
+    printf("%d\n", value1);
+    */
+
+    /*Logical operator (and(&&),or(||),Not(!))*/
+    /*
+    int age = 16;
+    double height = 6.3;
+
+    bool result = (age >= 18) && (height > 6.0);
+
+    printf("%d\n", result);
+    */
+    /*
+    int age = 16;
+    double height = 6.3;
+
+    bool result = (age >= 18) || (height > 6.0);
+
+    printf("%d\n", result);
+
+    */
+
+    /*Not can be used to compare only one thing*/
+
+    /*
+
+    int age = 16;
+   
+    bool result = !(age <= 18);
+
+    printf("%d\n", result);
     */
 
     return 0;
