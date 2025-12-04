@@ -441,6 +441,72 @@ int main(){
     printf("a ^ b : %d\n", c);
     */
 
+    /*Array*/
+
+    /*Assigning values directly*/
+    /*
+    int age[5] = {25, 29, 25, 32, 17};
+    */
+    /*Assigning values using index number*/
+    /*
+    int age[5];
+
+    printf("Enter 5 input values: ");
+    scanf("%d", &age[0]);
+    scanf("%d", &age[1]);
+    scanf("%d", &age[2]);
+    scanf("%d", &age[3]);
+    scanf("%d", &age[4]);
+
+    printf("%d ", age[0]);
+    printf("%d ", age[1]);
+    printf("%d ", age[2]);
+    printf("%d ", age[3]);
+    printf("%d ", age[4]);
+    */
+    /*
+    int age[5] = {21, 29, 25, 32, 17};
+    age[2] = 26;
+    printf("%d", age[2]);
+    */
+    /*Loop and array*/
+    /*
+    int age[5];
+
+    printf("Enter 5 input values: ");
+
+    for (int i = 0; i < 5; ++i){
+        scanf("%d", &age[i]);
+    }
+
+    for(int i = 0; i < 5; ++i){
+        printf("%d ", age[i]);
+    }
+    */
+
+    /*Multidimensional array*/
+    /*
+    int arr [2][3] = {{1,3,5} , {2,4,6}};
+    arr[0][2] = 7;
+    arr[1][1] = 8;
+
+    printf("%d\n",arr[0][2]);
+    printf("%d",arr[1][1]);
+    */
+    /*Loop and mulitidimetional array*/
+    /*
+    int arr [2][3] = {{1,3,5} , {2,4,6}};
+
+    for (int i = 0; i < 2; ++i){
+        for(int j = 0; j < 3; ++j){
+            printf("%d ", arr[i][j]);
+        }
+        printf("\n");
+    }
+
+    */
+
+
     return 0;
     
 }
