@@ -506,6 +506,28 @@ int main(){
 
     */
 
+    /*Bubble sorting*/
+
+    /*
+
+    int i, j, flag, A[5] = {15,16,6,8,5};
+
+    for(i=0;i<5-1;i++){
+        flag = 0;
+        for(j=0;j<5-1-i;j++){
+            if(A[j] > A[j+1]){
+                int temp = A[j];
+                A[j]=A[j+1];
+                A[j+1] = temp;
+                flag = 1;
+            }
+        }
+        if(flag == 0)
+            break;
+    }
+
+    */
+
 
     return 0;
     
