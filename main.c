@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 
 int main(){
 
@@ -593,6 +594,26 @@ int main(){
         }
     }
     printf("Max value: %d\n", *max);
+    */
+
+    /*Use of sprint*/
+    // I imported a string.h header file that contains strlen to find the length of a string
+    /*
+    char string[100];
+
+    sprintf(string, "Hello %d %f", 2, 10.5);
+
+    printf("%s", string);
+    printf("\n");
+
+    printf("%s", string);
+    printf("\n");
+
+    int length = strlen(string);
+    for(int i = 0; i < length; i++){
+        printf("string[%d] = %c\n", i, string[i]);
+    }
+
     */
  
     return 0;
