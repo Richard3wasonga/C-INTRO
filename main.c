@@ -528,7 +528,74 @@ int main(){
 
     */
 
+    /*Pointers*/
 
+    /*Accessing a value using pointer varibale*/
+    /*
+    int age = 25;
+
+    int* ptr = &age;
+
+    printf("Address: %p\n", ptr);
+
+    printf("Value: %d\n", *ptr);
+    */
+
+    /*Change Value using Pointer*/
+    /*
+    int age = 25;
+
+    int* ptr = &age;
+    
+    *ptr = 31;
+
+    printf("%d", age);
+    */
+
+    /*Pointers and arrays*/
+    /*
+    int numbers[5] = {1,3,5,7,9};
+
+    for(int i = 0; i < 5; ++i){
+        printf("%d = %p\n", numbers[i], numbers + 1);
+    }
+
+    */
+
+    /*Access array elements using pointers*/
+    /*
+    int numbers[5] = {1,3,5,7,9};
+
+    for(int i = 0; i < 5; ++i){
+        printf("%d = %p\n", *(numbers + i), numbers + 1);
+    }
+    */
+
+    /*Change array element using pointers*/
+    /*
+    int numbers[5] = {1,3,5,7,9};
+
+    *numbers = 2;
+    *(numbers + 4) = 11;
+
+    printf("First Element: %d\n", *numbers);
+    printf("Last Element: %d\n", *(numbers + 4));
+    */
+    /*
+    int *max, arr[] = {34,12,21,54,48};
+
+    max = arr;
+    *max = *arr;
+
+    for(int i; i < 4; ++i){
+        if(arr[i] < arr[i + 1]){
+            *max = arr[i + 1];
+        }
+    }
+    printf("Max value: %d\n", *max);
+    */
+ 
     return 0;
+
     
 }
