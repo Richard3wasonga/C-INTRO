@@ -615,7 +615,63 @@ int main(){
     }
 
     */
- 
+
+    /*strings*/
+
+    /*String input*/
+    /*
+    char str[20];
+
+    printf("Enter Your name: ");
+    
+    // Notice that when you use scanf and input two names it only reads the name untill it encouters a space
+    // scanf("%s", str);
+
+    fgets(str, sizeof(str), stdin);
+    printf("%s\n", str);
+    */
+
+    /*String functions*/
+
+    /*strlen function*/
+    /*
+    char langauage[] = "C programming";
+
+    printf("%s\n", langauage);
+    printf("Length: %zu\n", strlen(langauage));
+    */
+
+    /*strcpy function*/
+    /*
+    char food[] = "Pizza";
+    char bestFood[strlen(food)];
+
+    strcpy(bestFood, food);
+    printf("%s\n", bestFood);
+    */
+
+    /*strcat function*/
+    /*
+    char text1[] = "Hey, ";
+    char text2[] = "How are you?";
+
+    strcat(text1, text2);
+    printf("%s\n", text1);
+    */
+
+    /*strcmp function*/
+    /*IF they match it returns an integer 0 but if false it returns a random non 0 value*/
+    /*
+    char text1[] = "abcd";
+    char text2[] = "efgh";
+    
+    int result = strcmp(text1, text2);
+
+    printf("%d\n", result);
+    */
+
+    
+
     return 0;
 
     
