@@ -670,8 +670,21 @@ int main(){
     printf("%d\n", result);
     */
 
-    
-    
+    /*Palindrom*/
+
+    /*
+    char word[100];
+	char palindrom[100];
+	
+	printf("Enter a word: ");
+	scanf("%s", word);
+	
+	for(int i = 0; i < strlen(word); i++){
+	    palindrom[i] = word[strlen(word)- i - 1];
+	}
+	
+	printf("%s\n", palindrom);
+    */
 
     return 0;
 
