@@ -682,6 +682,8 @@ int main(){
 	for(int i = 0; i < strlen(word); i++){
 	    palindrom[i] = word[strlen(word)- i - 1];
 	}
+
+    palindrom[strlen(word)] = '\0'
 	
 	printf("%s\n", palindrom);
     */
