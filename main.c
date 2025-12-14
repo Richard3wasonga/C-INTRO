@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
+#include <math.h>
+#define PI 3.1415
+#define circleArea(r) (PI * r * r)
 
 int main(){
 
@@ -686,6 +689,33 @@ int main(){
     palindrom[strlen(word)] = '\0'
 	
 	printf("%s\n", palindrom);
+    */
+
+    /*Preprocesor and macros*/
+    /*
+    int number = 36;
+    
+    double squareRoot = sqrt(number);
+    double cubeRoot = cbrt(number);
+    
+    printf("%.2lf\n", squareRoot);
+    printf("%.2lf\n", cubeRoot);
+    */
+
+    /*Macros is a piece of code given a name or represents a value e.g PI*/
+    /*
+    double radius = 12.4;
+    double area = PI * radius * radius;
+
+    printf("%.2lf\n", area);
+    */
+
+    /*Define function Macros*/
+    /*
+    double radius = 12.4;
+    double area = circleArea(radius);
+
+    printf("%.2lf\n", area);
     */
 
     return 0;
