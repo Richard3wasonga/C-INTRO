@@ -718,6 +718,16 @@ int main(){
     printf("%.2lf\n", area);
     */
 
+    /*Dynamic memory allocation*/
+
+    /*malloc() function*/
+    /*
+    int n;
+    int* ptr;
+
+    ptr = (int*) malloc(n * sizeof(int));
+    */
+   
     return 0;
 
     
