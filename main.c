@@ -737,7 +737,7 @@ int main(){
 
     /*Dynamic memory allocation*/
 
-    /*malloc() function*/
+    /*malloc() (memory allocation)*/
     /*
     int n,i, *ptr;
     
@@ -746,12 +746,12 @@ int main(){
 
     ptr = (int*)malloc(n * sizeof(int));
 
-    printf("Enter values: ");
+    printf("\nEnter values: ");
     for(i=0; i<n; i++){
         scanf("%d", (ptr + i));
     }
 
-    printf("The entered values are: ");
+    printf("\n The entered values are: ");
     for(i=0; i<n;i++){
         printf("%d\t", *(ptr+i));
     }
@@ -759,7 +759,63 @@ int main(){
     free(ptr);
     */
 
-   
+    /*calloc() (contiguous allocation)*/
+    /*
+    int n,i, *ptr;
+    
+    printf("Enter total no. of values: ");
+    scanf("%d", &n);
+
+    ptr = (int*)calloc(n,sizeof(int));
+    
+    printf("\nEnter values: ");
+    for(i=0; i<n; i++){
+        scanf("%d", (ptr + i));
+    }
+
+    printf("\n The entered values are: ");
+    for(i=0; i<n;i++){
+        printf("%d\t", *(ptr+i));
+    }
+
+    free(ptr);
+    */
+    /*
+    int m,n,i, *ptr;
+    float *ptr1;
+
+    printf("Enter total number of integer values: ");
+    scanf("%d", &n);
+
+    ptr = (int*)calloc(n,sizeof(int));
+    
+    printf("Enter integer numbers: ");
+    for(i=0; i<n; i++){
+        scanf("%d", (ptr+i));
+    }
+     
+    printf("Enter total number of float values: ");
+    scanf("%d", &m);
+
+    ptr1 = (float*)malloc(m * sizeof(float));
+
+    printf("Enter float numbers: ");
+    for(i=0; i<m; i++){
+        scanf("%f", (ptr1+i));
+    }
+    
+    for(i=0;i<n;i++){
+        printf("%d\t", *(ptr+i));
+
+    }
+    for(i=0;i<m;i++){
+        printf("%f\t", *(ptr1+i));
+    }
+
+    free(ptr);
+    free(ptr1);
+    */
+    
     return 0;
 
     
