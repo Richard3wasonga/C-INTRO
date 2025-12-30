@@ -2,6 +2,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <math.h>
+#include <stdlib.h>
 #define PI 3.1415
 #define circleArea(r) (PI * r * r)
 
@@ -738,11 +739,26 @@ int main(){
 
     /*malloc() function*/
     /*
-    int n;
-    int* ptr;
+    int n,i, *ptr;
+    
+    printf("Enter total no. of values: ");
+    scanf("%d", &n);
 
-    ptr = (int*) malloc(n * sizeof(int));
+    ptr = (int*)malloc(n * sizeof(int));
+
+    printf("Enter values: ");
+    for(i=0; i<n; i++){
+        scanf("%d", (ptr + i));
+    }
+
+    printf("The entered values are: ");
+    for(i=0; i<n;i++){
+        printf("%d\t", *(ptr+i));
+    }
+
+    free(ptr);
     */
+
    
     return 0;
 
