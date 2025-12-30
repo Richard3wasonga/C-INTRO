@@ -598,7 +598,23 @@ int main(){
     }
     printf("Max value: %d\n", *max);
     */
+    /*void pointer*/
+    /*
+    void *vp;
 
+    int a=5;
+    float b=1.56;
+    char ch='c';
+
+    vp=&a;
+    printf("a=%d\n",*(int*)vp);
+
+    vp=&b;
+    printf("b=%f\n",*(float*)vp);
+
+    vp=&ch;
+    printf("ch=%c\n",*(char*)vp);
+    */
     /*Use of sprint*/
     // I imported a string.h header file that contains strlen to find the length of a string
     /*
